@@ -12,6 +12,7 @@ public class Asci {
         }else{
             char character=(char)num;
             System.out.println(character);
+            System.out.println("Git DEMO");
 
         }
     }
