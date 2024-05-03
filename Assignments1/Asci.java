@@ -1,4 +1,4 @@
-package Assignments;
+package Assignments1;
 import java.util.Scanner;
 public class Asci {
     public static void main(String[] args) {
