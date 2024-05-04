@@ -15,6 +15,7 @@ public class Asci {
             System.out.println("Git DEMO");
 
         }
+        scan.close();
     }
 
 }
