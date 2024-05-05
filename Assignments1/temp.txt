@@ -1,0 +1,26 @@
+switch (count) {
+      case 0:
+      System.out.println("Enter Principle");
+       a=scan.nextInt();
+      scan.close();
+      count++;
+      return a;
+      case 1:
+      System.out.println("Enter Time");
+       a=scan.nextInt();
+      scan.close();
+      count++;
+      return a;
+      case 2:
+      System.out.println("Enter rate");
+       a=scan.nextInt();
+      scan.close();
+      count++;
+      return a;
+case 3:
+System.out.println("\tCHOOSE NUMBER\t\n1.Simple Interest\n2.Amount");
+       a=scan.nextInt();
+      scan.close();
+      return a;
+      default:
+return 0
