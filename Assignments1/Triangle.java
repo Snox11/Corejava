@@ -22,5 +22,6 @@ if(a==b && b==c){
     System.out.println("It is a scalene triangle");
 }
 scan.close();
+System.out.println("Hello");
 }
 }
