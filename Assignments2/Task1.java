@@ -16,7 +16,13 @@ and Deposit operations.
  */
 public class Task1 {
     public static void main(String[] args) {
-        //Need to learn file handling
-    }
 
+    }
+static class Account {
+ 
+}
+static class bank_data {
+
+    
+}
 }

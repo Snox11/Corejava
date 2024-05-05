@@ -6,22 +6,11 @@ package Method;
  */
 import java.util.Scanner;
 public class Qb {
+  static int count=0;
   public static void main(String[] args) {
-    System.out.println("Enter principle");
-    int p=input();
-    System.out.println("Enter Rate");
-    int r=input();
-    System.out.println("Enter Time");
-    int t=input();
-    System.out.println("Choose an option \n 1)Simple Interest \n 2)Amount");
-    int a=input();
-    while((a<1 || a>2)==true)
-    {
-      System.out.println("Enter again");
-      a=input();
-    }
-    processing(a, p, t, r);
-  }
+input();
+}
+
   static void processing(int a,int p,int t,int r){
     if(a==1){
       //Simple interest
@@ -31,15 +20,34 @@ public class Qb {
     }else{
       //Amount
       int amt=p*(1+r*t);
-      output(amt, amt);
+      output(amt, a);
 
     }
   }
-  static int input(){
+  static void input(){
     Scanner scan=new Scanner(System.in);
-    int a=scan.nextInt();
-    return a;
+    int a,p,t,r;
+    
+      System.out.println("Enter Principle");
+       p=scan.nextInt();
+      System.out.println("Enter Time");
+       t=scan.nextInt();
+      System.out.println("Enter rate");
+       r=scan.nextInt();
+      System.out.println("\tCHOOSE NUMBER\t\n1.Simple Interest\n2.Amount");
+       a=scan.nextInt();
+       while((a<1 || a>2)==true)
+    {
+      System.out.println("Enter again");
+      a=scan.nextInt();
+    }
+    scan.close();
+    processing(a, p, t, r);
   }
+ 
+    
+    
+  
 static void output(int out,int a){
   if(a==1){
 System.out.println("The SI is "+out);
