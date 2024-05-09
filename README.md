@@ -1,1 +1,1 @@
-CORE java practice 
+Hello I am Kritan and I am learning core
