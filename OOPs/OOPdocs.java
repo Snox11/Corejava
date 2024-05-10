@@ -28,7 +28,7 @@ public class OOPdocs {
      *        Syntax
      * Class_name obj_name = new class_name();
      * 
-     * 
+     * NOTE:Constructors are objects and mathi ko variable(variable outside methods)
      */
 
 }

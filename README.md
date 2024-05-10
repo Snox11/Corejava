@@ -1,1 +1,1 @@
-Hello I am Kritan and I am learning core
+hello
