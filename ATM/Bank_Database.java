@@ -3,8 +3,9 @@ package ATM;
 class representing each person’s account. */
 public class Bank_Database {
     Account a=new Account();
-    void data(int code){
-        
-}
+   Bank_Database(int Account_num,int total_balance,int available_balance,int pin){
+
+    
+   }
 
 }
