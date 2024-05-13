@@ -9,6 +9,6 @@ this.b=b;
     }
 void Area(){
     int area=l*b;
-    System.out.println("The area of "+l+" and "+b+" is "+area);
+    System.out.println("The area of length"+l+" and breadth "+b+" is "+area);
 }
 }
