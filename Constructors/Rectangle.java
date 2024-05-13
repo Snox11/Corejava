@@ -1,7 +1,7 @@
 package Constructors;
 
 public class Rectangle {
-    int l;
+   static int l;
     int b;
     Rectangle(int a,int b){
 l=a;
