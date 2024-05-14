@@ -6,17 +6,17 @@ public class Screen {
 
 boolean display_verification(){
     Scanner scan=new Scanner(System.in);
-    Account d=new Account();
+    Bank_Database d=new Bank_Database();
     System.out.println("Enter the Account number ");
     int a=scan.nextInt();
     System.out.println(a);
-    System.out.println("The acc  no"+d.Account_num);
+    System.out.println("The acc  no"+d.ac.Account_num);
     System.out.println("Enter the pin");
-    System.out.println("The pin  no"+d.pin);
+    System.out.println("The pin  no"+d.ac.pin);
     int b=scan.nextInt();
-if(a==d.Account_num)
+if(a==d.ac.Account_num)
 {
-    if(b==d.pin){
+    if(b==d.ac.pin){
         return true;
     }
 }

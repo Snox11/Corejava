@@ -21,6 +21,7 @@ public class ATM {
          break;
 
     }
+    scan.close();;
 }
 
 }

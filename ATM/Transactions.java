@@ -11,29 +11,29 @@ public class Transactions {
 void balance_withdraw(){
     Screen display=new Screen();
     Scanner scan = new Scanner(System.in);
-    Account a=new Account();
+    Bank_Database a=new Bank_Database();
     System.out.println("Enter the amount you want to withdraw");
     int with=scan.nextInt();
-    a.available_balance=a.total_balance-with;
-    display.display_balance(a.available_balance,3);
+    a.ac.available_balance=a.ac.total_balance-with;
+    display.display_balance(a.ac.available_balance,3);
 
 }
 void balance_inquiry(){
-    Account a=new Account();
+    Bank_Database a=new Bank_Database();
     Screen display=new Screen();
-    a.available_balance=a.total_balance;
-    display.display_balance(a.available_balance, 1);
+    a.ac.available_balance=a.ac.total_balance;
+    display.display_balance(a.ac.available_balance, 1);
  
     }
     
     void deposit(){
         Screen display=new Screen();
         Scanner scan=new Scanner(System.in);
-        Account a=new Account();
+        Bank_Database a=new Bank_Database();
         System.out.println("Enter the amount to deposit");
         int deposit_amt=scan.nextInt();
-        a.available_balance=deposit_amt+a.total_balance;
-        display.display_balance(a.available_balance, 2);
+        a.ac.available_balance=deposit_amt+a.ac.total_balance;
+        display.display_balance(a.ac.available_balance, 2);
         
     }
 }
