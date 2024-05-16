@@ -47,6 +47,7 @@ static int[] test(){
     for(int i=0;i<10;i++){
         System.out.println("Enter a number");
 a[i]=scan.nextInt();
+scan.close();
     }
     return a;
 }

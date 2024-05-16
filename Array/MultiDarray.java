@@ -29,5 +29,6 @@ System.out.print(mat[i][j]+" ");
     }
     System.err.println();
 }
+scan.close();
 }
 }
