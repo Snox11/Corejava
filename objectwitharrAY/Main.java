@@ -5,6 +5,7 @@ import java.util.Scanner;
 /*
 	 * Q> WAP to store and print data 
 	 *    of 10 Employees(id,name,company,salary,department,post,city):
+     * 
 	 *    
 	 *    a> find total salary of employee.
 	 *    b> print employees of IT department.
@@ -43,26 +44,31 @@ public class Main {
         int lowest=emp[0].getSalary();
 for(Employees em: emp){
     total_salary=em.getSalary()+total_salary;
+    //print employeees of IT department
     if(em.getDepartment().equals("IT")){
         System.out.println(em);
     }
+    //count employees of Admin department.
     if(em.getDepartment().equals("Admin")){
         count_admin++;
     }
+    //count and print employees of particular city.
     if(em.getCity().equals("Kathmandu")){
 count_same_city++;
 System.out.println(em);
     }
+    //calculate total salary of particular department.
     if(em.getDepartment().equals("IT")){
 totsalofdep = em.getSalary()+totsalofdep;
     }
 }
 for(int i=0;i<=emp.length-1;i++)
-{
+{//highest salary
     if(emp[i].getSalary()>highest)
     {
 highest=emp[i].getSalary();
     }
+    //lowest salary
     if(emp[i].getSalary()<lowest){
         lowest=emp[i].getSalary();
     }
