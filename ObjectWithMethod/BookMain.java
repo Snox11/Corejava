@@ -20,5 +20,6 @@ public class BookMain {
         System.out.println("The price of the book = "+a.getPrice());
         System.out.println("The publishing date of the book = "+a.getPublishied_date());
     }
+    
 
 }
