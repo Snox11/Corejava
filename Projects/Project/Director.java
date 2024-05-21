@@ -1,4 +1,4 @@
-package Project;
+package Projects.Project;
 
 public class Director extends Manager {
     Director(int empid,String name ,String ssn,double salary,String deptName,double budget){

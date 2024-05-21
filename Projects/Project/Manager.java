@@ -1,4 +1,4 @@
-package Project;
+package Projects.Project;
 
 public class Manager extends Employee {
     private String deptName;

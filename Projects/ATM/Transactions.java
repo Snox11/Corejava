@@ -1,4 +1,4 @@
-package ATM;
+package Projects.ATM;
 /*
  * Giving code 1 for inquiry
  * 2 for balance after deposit 

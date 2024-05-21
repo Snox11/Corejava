@@ -1,4 +1,4 @@
-package ATM;
+package Projects.ATM;
 
 public class Account {
     // Stores the information 

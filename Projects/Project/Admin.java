@@ -1,4 +1,4 @@
-package Project;
+package Projects.Project;
 
 public class Admin extends Employee{
     Admin(int empid,String name,String ssn,double salary){

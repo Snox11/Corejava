@@ -1,4 +1,4 @@
-package Project;
+package Projects.Project;
 
 import java.text.NumberFormat;
 

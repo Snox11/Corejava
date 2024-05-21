@@ -1,4 +1,4 @@
-package ATM;
+package Projects.ATM;
 /*: represents in-memory database that contains the objects of Account
 class representing each person’s account. */
 public class Bank_Database {
