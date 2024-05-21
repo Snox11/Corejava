@@ -1,4 +1,4 @@
-package Assignments1;
+package Assignments.Assignments1;
 /*Write a Program to accept three sides of triangle and display which kind of triangle is
 formed.
  */

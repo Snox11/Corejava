@@ -1,4 +1,4 @@
-package objectwitharrAY;
+package ObjectsManipulation.objectwitharrAY;
 
 public class Book {
     private int id;

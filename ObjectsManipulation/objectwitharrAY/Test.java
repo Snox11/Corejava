@@ -1,4 +1,4 @@
-package objectwitharrAY;
+package ObjectsManipulation.objectwitharrAY;
 
 import java.util.Scanner;
 

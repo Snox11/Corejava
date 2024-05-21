@@ -1,16 +1,15 @@
-package MethodOverriding;
+package MethodManipulation.MethodOverriding;
 
-public class NabilBank extends CentralBank {
+public class PrabhuBank extends CentralBank{
     @Override
     void getBankName() {
         // TODO Auto-generated method stub
-
-        System.out.println("Nabil Bank");
+System.out.println("Prabhu Bank");
     }
     @Override
     void getInterestrate() {
         // TODO Auto-generated method stub
-System.out.println("12%");
-    }
-    
+System.out.println("14%");    
+}
+
 }

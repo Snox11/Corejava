@@ -1,4 +1,4 @@
-package MethodOverriding;
+package MethodManipulation.MethodOverriding;
 
 public class LaxmiBank extends CentralBank{
     @Override

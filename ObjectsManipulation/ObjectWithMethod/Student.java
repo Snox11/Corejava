@@ -1,4 +1,4 @@
-package ObjectWithMethod;
+package ObjectsManipulation.ObjectWithMethod;
 public class Student {
 private int id;
 private String fname;

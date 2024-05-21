@@ -1,4 +1,4 @@
-package Assignments1;
+package Assignments.Assignments1;
 import java.util.Scanner;
 /*Write a program to create the equivalent of a four-function calculator. The program to
 enter two integer’s numbers and an operator. It then carries out the specified arithmetic operator

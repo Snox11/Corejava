@@ -1,4 +1,4 @@
-package ObjectWithMethod;
+package ObjectsManipulation.ObjectWithMethod;
 public class BookMain {
     public static void main(String[] args) {
         BookMain t=new BookMain();
