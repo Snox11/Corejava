@@ -22,7 +22,7 @@ public class DIstrictCodeMain {
     for(String a:c.keySet()){
         System.out.println(a);
     }
-    System.out.println("WSL Vim Test")
+    System.out.println("WSL Vim Test");
         scan.close();
     }
 
