@@ -1,7 +1,9 @@
 {
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
-        "mysql-connector-java-8.0.26.jar"
+        "mysql-connector-java-8.0.26.jar",
+        "SQL/mysql-connector-java-8.0.26.jar",
+        "SQLDRIVER/mysql-connector-java-8.0.26.jar"
     ],
     "sqltools.connections": [
         {
