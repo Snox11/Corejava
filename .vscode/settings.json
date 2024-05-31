@@ -1,0 +1,21 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "mysql-connector-java-8.0.26.jar"
+    ],
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "home",
+            "username": "root",
+            "database": "testdb"
+        }
+    ]
+}
