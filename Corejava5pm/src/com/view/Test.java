@@ -1,6 +1,5 @@
 package com.view;
 
-import java.util.List;
 import java.util.Scanner;
 
 import com.model.Product;
@@ -9,12 +8,7 @@ import com.service.ProductServiceImpl;
 
 public class Test {
 public static void main(String[] args) {
-    add();
-    getALL();
-    Delete();
-    //show after deletion
-    getALL();
-    
+getALL();
 }
 // add product
 static void add(){
@@ -23,8 +17,6 @@ static void add(){
     char flag='y';
     do{
 Product pd=new Product();
-System.out.println("Enter id");
-pd.setId(scan.nextInt());
 System.out.println("Enter name");
 pd.setName(scan.next());
 System.out.println("Enter price");
@@ -42,11 +34,15 @@ scan.close();
 }
 static void getALL(){
     ProductService Service=new ProductServiceImpl();
-    List<Product> plist=Service.getAllproducts();
-    System.out.println(plist);
+    Service.getAllproducts();
+    
 }
 static void Delete(){
     ProductService service=new ProductServiceImpl();
-    service.deleteProduct(0);
+    Scanner scan=new Scanner(System.in);
+    System.out.println("Enter the id of the person you want to delete");
+    int id=scan.nextInt();
+    service.deleteProduct(id);
+
 }
 }
