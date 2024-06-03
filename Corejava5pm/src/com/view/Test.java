@@ -43,6 +43,7 @@ static void Delete(){
     System.out.println("Enter the id of the person you want to delete");
     int id=scan.nextInt();
     service.deleteProduct(id);
+    scan.close();
 
 }
 }
