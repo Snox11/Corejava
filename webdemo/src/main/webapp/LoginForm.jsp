@@ -8,12 +8,13 @@
 </head>
 <body>
 <h1>User Login Form</h1>
-<form>
+<p>${message} </p>
+<form action="LoginServlet" method="post">
 <label for="username">Username</label>
-<input type="text" id="username" name="Username"><br>
+<input type="text" id="username" name="username"><br>
 <label for="password">Password</label>
-<input type="password" id="password" name="Password"><br>
-
+<input type="password" id="password" name="password"><br>
+<input type="submit" value="login">
 </form>
 </body>
 </html>

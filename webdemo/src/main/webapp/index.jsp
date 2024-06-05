@@ -10,6 +10,7 @@
 <h1>JSP-Servlet Demo</h1>
 <hr>
 <img src="C:\Project\Corejava\webdemo\src\main\webapp\images\TtlMxMn.jpeg" alt="click here">
-<a href="LoginForm.jsp">Login</a>
+<a href="LoginServlet">Login</a>
+<a href="SignUpServlet">SignUp</a>
 </body>
 </html>
